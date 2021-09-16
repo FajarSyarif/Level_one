@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Press+Start+2P&display=swap");
+
+body {
+  background-image: url(../images/Background.jpg);
+}
+
+.jumbotron-re {
+  font-size: 20px;
+  padding: 60px;
+  text-align: center;
+  color: white;
+}
+
+.font-1 {
+  font-family: "Press Start 2P";
+}
+
+.font-2 {
+  font-family: "Poppins";
+}
+
+.headline {
+  padding-top: 6rem;
+  font-size: 3rem;
+}
+
+.white {
+  color: white;
+}
+
+.jumbotron {
+  padding: 10rem;
+  color: white;
+}
+.subhd {
+  padding-top: 14rem;
+  padding-bottom: 4rem;
+}
+
+footer {
+  padding: 1rem;
+}
+
+/* breakpoint */
+
+@media screen and (max-width: 1024px) {
+  .headline {
+    font-size: 1.8rem;
+  }
+  .subheadline {
+    font-size: 1rem;
+  }
+}
